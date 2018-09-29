@@ -1,33 +1,1457 @@
 <!DOCTYPE html>
-<!-- saved from url=(0160)file:///C:/Users/yu.melnikov/Desktop/D/%D0%AE%D1%80%D0%B8%D0%B9%20%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2's%20online%20resume%20_%20Uptowork.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Юрий Мельников's online resume | Uptowork</title>
-		<!--<base href="https://uptowork.com">--><!--<base href=".">--><base href=".">
-		<script type="text/javascript" src="./index_files/e3b206154e"></script><script src="./index_files/nr-1071.min.js.Без названия"></script><script type="text/javascript" src="./index_files/e3b206154e(1)"></script><script src="./index_files/nr-1071.min.js(1).Без названия"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="View Юрий Мельников&#39;s professional online resume built with Uptowork.">
-		<meta name="robots" content="noindex">
+<!-- saved from url=(0029)https://zety.com/mycv/itavgur -->
+<html lang="en"><head typeof="og:article"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./index_files/289033934773564" async=""></script><script async="" src="./index_files/fbevents.js.Без названия"></script><script type="text/javascript" async="" src="./index_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./index_files/linkid.js.Без названия"></script><script type="text/javascript" async="" src="./index_files/amplitude-4.2.1-min.gz.js.Без названия"></script><script async="" src="./index_files/gtm.js.Без названия"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KTZQJX');</script><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="application-name" content="Zety"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/vnd.microsoft.icon" href="https://cdn-images.zety.com/images/_zety/favicon.png"><link rel="shortcut icon" type="image/x-icon" href="https://cdn-images.zety.com/images/_zety/favicon.png"><link rel="manifest" href="https://zety.com/manifest.json"><meta name="theme-color" content="#09f"><title>Online resume | Zety</title><meta name="robots" content="noindex, follow"><link rel="stylesheet" href="./index_files/normalize.css"><link rel="stylesheet" href="./index_files/creator.css"><link rel="stylesheet" href="./index_files/phantomjs.css"><link rel="stylesheet" href="./index_files/fonts.css"><link rel="stylesheet" href="./index_files/print.css"><link rel="canonical" href="https://zety.com/mycv/itavgur"><style>@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:300;src:local("Open Sans Light Italic"),local("OpenSans-LightItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Udc1GAK6bt6o.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0ddc1GAK6bt6o.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Vdc1GAK6bt6o.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0adc1GAK6bt6o.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Wdc1GAK6bt6o.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Xdc1GAK6bt6o.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local("Open Sans Italic"),local("OpenSans-Italic"),url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:600;src:local("Open Sans SemiBold Italic"),local("OpenSans-SemiBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local("Open Sans Bold Italic"),local("OpenSans-BoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hmIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hvIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hnIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hoIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hkIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hlIqOxjaPXZSk.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:italic;font-weight:800;src:local("Open Sans ExtraBold Italic"),local("OpenSans-ExtraBoldItalic"),url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqOxjaPX.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local("Open Sans Light"),local("OpenSans-Light"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans Regular"),local("OpenSans-Regular"),url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local("Open Sans SemiBold"),local("OpenSans-SemiBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local("Open Sans Bold"),local("OpenSans-Bold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOX-hpKKSTj5PW.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOVuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXuhpKKSTj5PW.woff2) format("woff2");unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXehpKKSTj5PW.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXOhpKKSTj5PW.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local("Open Sans ExtraBold"),local("OpenSans-ExtraBold"),url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhpKKSTjw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}body,html{margin:0;font-family:'Open Sans',sans-serif;font-size:10px}.lockScroll{overflow-y:hidden}*{box-sizing:border-box}.hidden{display:none}.Layout{position:relative}.Navbar{position:relative;z-index:101;display:flex;width:100%;height:6rem;box-sizing:border-box;flex-direction:row;align-items:center;justify-content:space-between;padding:0 1.5rem;background:#09f}@media (max-width:991px){.Navbar>ul{display:none;background:#fff;font-size:1.5rem}}.Navbar>ul>li>a,.Navbar>ul>li>span{color:#fff;line-height:6rem}.Navbar>ul>li>a>i>svg,.Navbar>ul>li>span>i>svg{fill:#fff}.Navbar>ul>li{text-align:left}.Navbar>ul>li>span::after{border-top-color:#fff}@media (max-width:991px){.Navbar>ul>li>ul{position:relative;top:0}}@media (max-width:991px){.Navbar>ul>li>ul>li{position:static;top:0}}@media (max-width:991px){.Navbar>ul>li>ul>li>a{background-color:rgba(0,0,0,.03)}}.Navbar--Transparent,.Navbar--TransparentWithMobile{background-color:transparent}.Navbar--Transparent>ul>li,.Navbar--Transparent>ul>li>a,.Navbar--Transparent>ul>li>span,.Navbar--TransparentWithMobile>ul>li,.Navbar--TransparentWithMobile>ul>li>a,.Navbar--TransparentWithMobile>ul>li>span{color:#fff}.Navbar--Transparent>ul>li>a>i>svg,.Navbar--Transparent>ul>li>i>svg,.Navbar--Transparent>ul>li>span>i>svg,.Navbar--TransparentWithMobile>ul>li>a>i>svg,.Navbar--TransparentWithMobile>ul>li>i>svg,.Navbar--TransparentWithMobile>ul>li>span>i>svg{fill:#fff}.Navbar--Transparent>ul>li>span::after,.Navbar--TransparentWithMobile>ul>li>span::after{border-top-color:#fff}.Navbar--Transparent .circleIcon,.Navbar--TransparentWithMobile .circleIcon{background:#fff}.Navbar--Transparent .circleIcon>svg,.Navbar--TransparentWithMobile .circleIcon>svg{fill:#515d6b}@media (max-width:991px){.Navbar--Transparent{background-color:#fff}.Navbar--Transparent .circleIcon{background:#515d6b}.Navbar--Transparent .circleIcon>svg{fill:#fff}}@media (min-width:992px){.Navbar--Transparent{background-color:transparent}}.Navbar--White{background-color:#fff}.Navbar--White>ul>li,.Navbar--White>ul>li>a,.Navbar--White>ul>li>span{color:#4e555e}.Navbar--White>ul>li>a>i>svg,.Navbar--White>ul>li>i>svg,.Navbar--White>ul>li>span>i>svg{fill:#4e555e}.Navbar--White>ul>li>span::after{border-top-color:#4e555e}.Navbar--White .circleIcon{background:#515d6b}.Navbar--White .circleIcon>svg{fill:#fff}.Navbar--Absolute{position:absolute;z-index:100;top:0;right:0;left:0}@media (max-width:991px){.Navbar--Absolute .Navbar--Transparent{position:relative}}.Navbar--Fixed{position:fixed;z-index:100;top:0;right:0;left:0}@media (max-width:991px){.Navbar--Collapse>ul{position:absolute;top:6rem;right:0;left:0;display:block}}@media (max-width:991px){.Navbar>ul>li>a,.Navbar>ul>li>span{display:inline-flex;padding:0 1.5rem;color:#4e555e;line-height:4rem}.Navbar>ul>li>a>i>svg,.Navbar>ul>li>span>i>svg{fill:#4e555e}.Navbar>ul>li{padding:0}.Navbar>ul>li>span::after{border-top-color:#4e555e}}.NavbarLogo{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;font-size:0;line-height:0}.NavbarLogo__Text{position:relative;padding-left:1.5rem;margin-left:1.5rem;color:#fff;font-size:1.8rem;font-weight:300}.NavbarLogo__Text::before{position:absolute;top:-1.7rem;bottom:-1.7rem;left:0;width:.1rem;background-color:rgba(255,255,255,.5);content:""}@media (max-width:575px){.NavbarLogo__Text{display:none}}.Logo{position:relative}@media (max-width:991px){.Logo--BlackMobile svg{fill:#fff}}@media (min-width:992px){.Logo--Black svg{fill:#fff}}@media (max-width:991px){.Logo--BlueMobile svg{fill:#fff}}@media (min-width:992px){.Logo--Blue svg{fill:#fff}}@media (max-width:991px){.Logo--GrayBlueMobile svg [class*=st0]{fill:#8d9295}.Logo--GrayBlueMobile svg [class*=st1]{fill:#09f}}@media (min-width:992px){.Logo--GrayBlue svg [class*=st0]{fill:#8d9295}.Logo--GrayBlue svg [class*=st1]{fill:#09f}}@media (max-width:991px){.Logo--WhiteMobile svg{fill:#fff}}@media (min-width:992px){.Logo--White svg{fill:#fff}}@media (max-width:991px){.Logo--WhiteBlueMobile svg [class*=st0]{fill:#fff}.Logo--WhiteBlueMobile svg [class*=st1]{fill:#09f}}@media (min-width:992px){.Logo--WhiteBlue svg [class*=st0]{fill:#fff}.Logo--WhiteBlue svg [class*=st1]{fill:#09f}}.NavbarToggler{position:relative;z-index:100002;display:inline-flex;height:6rem;align-items:center;color:#292b2c;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.NavbarToggler__Text{margin-right:1rem;color:#09f;font-size:1.4rem;font-weight:600;text-transform:uppercase;transition:color .2s linear}.NavbarToggler__Icon{align-items:center;padding:.3rem 0;border:.2rem solid #09f;border-radius:.5rem;transition:border .2s linear}.NavbarToggler__IconLine{display:block;width:2.2rem;height:.2rem;margin:.4rem;background:#09f;border-radius:.1rem;transition:background .2s linear}.NavbarToggler--Dark{color:#292b2c}.NavbarToggler--Dark .NavbarToggler__Text{color:#292b2c}.NavbarToggler--Dark .NavbarToggler__Icon{border-color:#292b2c}.NavbarToggler--Dark .NavbarToggler__IconLine{background:#292b2c}.NavbarToggler--Dark.NavbarToggler--Opened{color:#fff}.NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Text{color:#fff}.NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Icon{border-color:#fff}.NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#fff}.NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}.NavbarToggler--GreyDark{color:#4e555e}.NavbarToggler--GreyDark .NavbarToggler__Text{color:#4e555e}.NavbarToggler--GreyDark .NavbarToggler__Icon{border-color:#4e555e}.NavbarToggler--GreyDark .NavbarToggler__IconLine{background:#4e555e}.NavbarToggler--GreyDark.NavbarToggler--Opened{color:#fff}.NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Text{color:#fff}.NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Icon{border-color:#09f}.NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#09f}.NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}.NavbarToggler--White{color:#fff}.NavbarToggler--White .NavbarToggler__Text{color:#fff}.NavbarToggler--White .NavbarToggler__Icon{border-color:#fff}.NavbarToggler--White .NavbarToggler__IconLine{background:#fff}.NavbarToggler--White.NavbarToggler--Opened{color:#fff}.NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Text{color:#fff}.NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Icon{border-color:#fff}.NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#fff}.NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}.NavbarToggler--Blue{color:#09f}.NavbarToggler--Blue .NavbarToggler__Text{color:#09f}.NavbarToggler--Blue .NavbarToggler__Icon{border-color:#09f}.NavbarToggler--Blue .NavbarToggler__IconLine{background:#09f}.NavbarToggler--Blue.NavbarToggler--Opened{color:#fff}.NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Text{color:#fff}.NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Icon{border-color:#fff}.NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#fff}.NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}@media (max-width:991px){.NavbarToggler--BlueMobile{color:#09f}.NavbarToggler--BlueMobile .NavbarToggler__Text{color:#09f}.NavbarToggler--BlueMobile .NavbarToggler__Icon{border-color:#09f}.NavbarToggler--BlueMobile .NavbarToggler__IconLine{background:#09f}.NavbarToggler--BlueMobile.NavbarToggler--Opened{color:#fff}.NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Text{color:#fff}.NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Icon{border-color:#fff}.NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#fff}.NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}}.NavbarToggler--Brown{color:#474d53}.NavbarToggler--Brown .NavbarToggler__Text{color:#474d53}.NavbarToggler--Brown .NavbarToggler__Icon{border-color:#474d53}.NavbarToggler--Brown .NavbarToggler__IconLine{background:#474d53}.NavbarToggler--Brown.NavbarToggler--Opened{color:#474d53}.NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Text{color:#474d53}.NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Icon{background:#09f;border-color:#09f}.NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Icon svg{fill:#09f}.NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__IconLine{background:#fff}.NavbarToggler--Bordered{width:9rem;height:3.8rem;flex-direction:row-reverse;justify-content:space-evenly;border:.2rem solid #d5d5d5;background-color:#fff;border-radius:.5rem;color:#515d6b}.NavbarToggler--Bordered .NavbarToggler__Text{color:#515d6b;text-transform:none}.NavbarToggler--Bordered .NavbarToggler__Icon{border:none}.NavbarToggler--Bordered .NavbarToggler__Icon svg{height:1.6rem;fill:#515d6b}.NavbarToggler--Bordered .NavbarToggler__IconLine{width:1.6rem;height:.1rem}.NavbarToggler--Fixed{position:fixed;z-index:9999;top:0;right:0;padding:0 1.5rem}@media (max-width:991px){.NavbarToggler--Fixed.NavbarToggler--Blue,.NavbarToggler--Fixed.NavbarToggler--BlueMobile{background:rgba(255,255,255,.85)}}@media (min-width:992px){.NavbarToggler--Mobile{display:none}}.NavbarToggler--Mobile.NavbarToggler--Collapse .NavbarToggler__Icon{background:#09f;border-color:#09f;transition:none}.NavbarToggler--Mobile.NavbarToggler--Collapse .NavbarToggler__IconLine{background:#fff;transition:none}.Nav{display:flex;padding:0;margin:0;font-size:1.4rem;list-style-type:none}.Nav--Horizontal{flex-direction:row}.Nav--Horizontal>li>a,.Nav--Horizontal>li>span{padding:0 1.5rem}.Nav--Vertical{flex-direction:column;align-items:center}.Nav--Vertical>li>a,.Nav--Vertical>li>span{padding:1.5rem 0}.Nav--Vertical>li>a:hover,.Nav--Vertical>li>span:hover{background-color:rgba(0,0,0,.03)}.Nav--Vertical>li>span{justify-content:center}.Nav--Vertical>li{width:100%}.Nav--Bordered:not(.Nav--Vertical)>li{border-left:.1rem solid;border-color:rgba(0,0,0,.07)}.Nav--Bordered:not(.Nav--Vertical)>li:first-of-type{border-left:none}.Footer .Nav--Bordered:not(.Nav--Vertical)>li{border-left-color:rgba(255,255,255,.45)}.Nav--Bordered:not(.Nav--Vertical)>li>a{padding:0 1.5rem}.Nav--Bordered:not(.Nav--Horizontal){position:relative}.Nav--Bordered:not(.Nav--Horizontal)>li{border-top:.1rem solid;border-color:rgba(0,0,0,.07)}.Nav--Bordered:not(.Nav--Horizontal)>li:first-of-type{border-top:none}.Nav--White>li>a,.Nav--White>li>span{color:#fff}.Nav--White>li>a:hover,.Nav--White>li>span:hover{background-color:rgba(255,255,255,.45)}.Nav--White.Nav--Bordered>li{border-color:rgba(255,255,255,.45)}.Nav--Uppercase>li>a,.Nav--Uppercase>li>span{text-transform:uppercase}.NavDropdown{position:absolute;z-index:101;top:6rem;right:0;overflow:hidden;max-height:0;padding:0;border-top:.1rem solid transparent;list-style:none;transition:.4s max-height linear,.4s border-top linear;white-space:nowrap}.NavDropdown__Wrapper{transform:translateZ(0)}.NavDropdown__WrapperLink{position:relative;display:flex;flex-direction:row;align-items:center;padding-right:1.5rem;color:#4e555e;cursor:pointer}.NavDropdown__WrapperLink::after{display:inline;width:0;height:0;margin-left:.8rem;border-color:#4e555e transparent transparent transparent;border-style:solid;border-width:.4rem .4rem 0;content:'';vertical-align:middle}.NavDropdown__WrapperLink .circleIcon{position:relative;width:2.6rem;height:2.6rem;margin-right:1rem;border-radius:50%}.NavDropdown__WrapperLink .circleIcon>svg{position:absolute;top:50%;left:50%;margin:0;transform:translate3d(-50%,-50%,0)}.NavDropdown__WrapperLink i{font-size:0;line-height:1}.NavDropdown__WrapperLink i>svg,.NavDropdown__WrapperLink>svg{margin-right:.5rem;fill:#4e555e}.NavDropdown__WrapperLinkActive{background-color:rgba(255,255,255,.1)}.NavDropdown>li{padding:0;background:#fff;text-align:left}.NavDropdown>li:hover{background:#f4f4f4}.NavDropdown>li>a{display:flex;align-items:center;justify-content:start;padding:1.4rem 1.5rem;color:#4e555e;line-height:1.45;text-decoration:none}.NavDropdown svg{margin-right:1rem;fill:#4e555e}.NavDropdown--Horizontal{min-width:16rem;border-bottom-left-radius:.5rem;border-bottom-right-radius:.5rem}.NavDropdown--Vertical{position:static;top:0}.NavDropdown--Visible{max-height:50rem;transition:.4s max-height linear,.4s 0s border-top linear}.NavDropdown--Visible.NavDropdown--Horizontal{border-top:.1rem solid #e3e3e1;border-bottom:.1rem solid #e3e3e1}.NavDropdown--Visible.NavDropdown---Vertical{border-top:.1rem solid rgba(0,0,0,.07)}.NavDropdown--Transparent>li{background:0 0}.NavDropdown--Center>li>a{justify-content:center}.NavItem{position:relative;padding:0;margin:0;text-align:center}.NavItem__Link{display:flex;justify-content:center;margin:0;color:#4e555e;text-decoration:none;transition:background-color .2s ease-out}.NavItem__Link svg{fill:#4e555e}.DocumentOnline{width:100%;height:100%;padding:3rem 0;background-color:#f4f4f4;font-family:'Open Sans',Helvetica,Arial,sans-serif}.DocumentOnline__Button{text-align:center}.DocumentOnline__Footer{display:flex;max-width:100rem;padding-left:3rem;margin:2rem auto 4rem;color:#929292;font-size:1rem}@media (min-width:992px){.Footer{display:flex;flex-direction:row;align-items:center;justify-content:space-between}}.Footer__Copyright{margin-bottom:1.5rem;color:#fff;font-size:1.5rem;line-height:2.4rem}@media (min-width:992px){.Footer__Copyright{margin-bottom:0}}.Footer__Copyright span:first-of-type,.Footer__Copyright span:last-of-type{display:block;text-align:center}@media (min-width:992px){.Footer__Copyright span:first-of-type,.Footer__Copyright span:last-of-type{display:inline;text-align:left}}.Footer__Copyright a{color:#fff}.Footer__Socials{display:flex;flex-direction:row;justify-content:center}@media (min-width:992px){.Footer__Socials{justify-content:flex-start}}.Footer__SocialLink+.Footer__SocialLink{margin-left:.5rem}.Footer .Footer__Nav{flex-wrap:wrap;justify-content:center;margin-bottom:1.5rem}@media (min-width:992px){.Footer .Footer__Nav{margin-right:.5rem;margin-bottom:0}}.Footer .Footer__Nav>li{margin-top:.75rem;margin-bottom:.75rem;border-left-color:rgba(255,255,255,.45)}@media (min-width:992px){.Footer .Footer__Nav>li{margin-top:0;margin-bottom:0}}.Footer .Footer__Nav>li>a{color:#fff}.Footer__Column{text-align:center}@media (min-width:992px){.Footer__Column{text-align:inherit}.Footer__Column:last-of-type{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;text-align:right}}.Footer--Mini{padding:0 2rem;font-size:1.5rem}.Footer--Mini .Footer__Copyright{display:block;padding:.5rem 2rem;margin:0;color:#828282}@media (min-width:576px){.Footer--Mini .Footer__Copyright{display:inline;padding:0 2rem}}.Footer--Mini .Footer__Copyright span:first-of-type,.Footer--Mini .Footer__Copyright span:last-of-type{display:inline;text-align:left}.Footer--Mini .Footer__Column{display:block;width:100%;text-align:center}@media (min-width:576px){.Footer--Mini .Footer__Column{display:flex;align-items:center;justify-content:center}}.Footer--Mini .Footer__Logo{padding:.5rem 2rem;font-size:0}@media (min-width:576px){.Footer--Mini .Footer__Logo{padding:0 2rem}}.Footer--Mini .Footer__Logo svg{height:3.5rem}.Section{width:100%;box-sizing:border-box;padding:2rem 1rem;background-color:#fff}@media (min-width:576px){.Section{padding:4rem 2rem}}.Section--Gray{background-color:#f4f4f4}.Section--GrayAlabaster{background-color:#f9f9f9}.Section--White{background-color:#fff}.Section--DarkGray{background-color:#515d6b}.Section--Blue{background-color:#09f;color:#fff}.Section--Gradient{background-image:repeating-linear-gradient(125deg,transparent 33%,rgba(255,255,255,.03) 66%)}.Section--NoPadding{padding:0}.Section--Footer{padding:1.5rem}@media (min-width:576px){.Section--Footer{padding:1.5rem}}@media (min-width:576px){.Section--Small{padding:3rem 1.5rem}}@media (min-width:576px){.Section--Medium{padding:6rem 2rem}}@media (min-width:576px){.Section--Large{padding:8rem 2rem}}@media (min-width:576px){.Section--Largest{padding:10rem 2rem}}.Social{display:flex;width:4rem;height:4rem;align-items:center;justify-content:center;border:.1rem solid #09f;background-color:#fff;border-radius:50%;color:#09f;line-height:4rem;text-align:center;transition:background-color .2s ease-out}.Social svg{width:1.5rem;height:1.5rem;fill:#09f;transition:fill .2s ease-out}.Social:hover{background-color:#09f}.Social:hover svg{fill:#fff}.Social--White{background-color:transparent;border-color:#fff;color:#fff;transition:opacity .2s ease-out}.Social--White svg{fill:#fff}.Social--White:hover{background-color:transparent;opacity:.5}.Social--White:hover svg{fill:#fff}.Social--Small{width:3rem;height:3rem;border-width:.2rem}</style><script async="" src="./index_files/analytics.js.Без названия"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-122318419-1', 'auto');
+    ga('send', 'pageview');</script><script>var _vwo_code=(function(){
+    var account_id=291776,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();</script><script src="./index_files/j.php" type="text/javascript"></script><script charset="utf-8" src="./index_files/myCl.chunk.js.Без названия"></script><style type="text/css" id="s464-0">/* stylelint-disable */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hmIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
 
-										
-		<link rel="stylesheet" href="./index_files/normalize.css">
-<link rel="stylesheet" href="./index_files/creator.css">
-<link rel="stylesheet" href="./index_files/phantomjs.css">
-<link rel="stylesheet" href="./index_files/fonts.css">
-<link rel="stylesheet" href="./index_files/print.css">
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hvIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
 
-	</head>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hnIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
 
-	<body class="preload online">
-	<div class="printmode-screen__text">
-		If you want to print the document,<br>
-		click the Download button.
-	</div>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hoIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hkIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
 
-		
-		<div id="creatorContent" class="online">
-							      <div class="page fFamilyTxtArimo fStyleH1BoldItalic fStyleH1LastBoldItalic fStyleH3Bold fStyleH5Bold fStyleH6Italic fStylePersonalTitleBold fStyleDateBold pagePaddingTop40 pagePaddingRight40 pagePaddingBottom40 pagePaddingLeft40 secSpace10 colSpace20 fSizeH1-2 fSizeH2-2 fSizeH3-2 fSizeH4-2 fSizeH5-2 fSizeH6-2 fSizeText-2 fSizeDate-2 fSizeSkillDesc-2 fSizePersonalTitle-2 fSizePersonalText-2 fSizeHeader-2 fSizeFooter-2 lineHeight-2 footerDisplay fStyleH2Italic fFamilyH1RobotoCondensed" data-template="15" data-id="22243b76-52c9-4e4a-82bd-c046460a8837" data-user-id="1538275" data-colorset="388" data-language="ru_RU" data-type="cv" data-name="1: Java dev" data-url="itavgur" data-first-name="Юрий" data-last-name="Мельников"><div class="dRow firstRow"><div class="dCol dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol lastCol" style="width: 100%; height: auto;"><div class="section sectionType1 sectionBasic fStyleH1Bold fStyleH1LastBold fSizeH1+3">
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hlIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Open Sans Light Italic"), local("OpenSans-LightItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWyV9hrIqOxjaPX.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Udc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0ddc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Vdc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0adc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Wdc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Xdc1GAK6bt6o.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(https://fonts.gstatic.com/s/opensans/v15/mem6YaGs126MiZpBA-UFUK0Zdc1GAK6b.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhmIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhvIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhnIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhoIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhkIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhlIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans SemiBold Italic"), local("OpenSans-SemiBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKXGUdhrIqOxjaPX.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhmIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhvIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhnIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhoIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhkIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhlIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKWiUNhrIqOxjaPX.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hmIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hvIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hnIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hoIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hkIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hlIqOxjaPXZSk.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold Italic"), local("OpenSans-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/opensans/v15/memnYaGs126MiZpBA-UFUKW-U9hrIqOxjaPX.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOX-hpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOVuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXuhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0370-03FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXehpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOXOhpKKSTj5PW.woff2) format("woff2");
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN8rsOUuhpKKSTjw.woff2) format("woff2");
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+html,
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px; }
+
+.lockScroll {
+  overflow-y: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+.hidden {
+  display: none; }
+
+.Layout {
+  position: relative; }
+</style><style type="text/css" id="s471-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.Navbar {
+  position: relative;
+  z-index: 101;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background: #0099ff;
+  /**
+   * White modifier
+   */
+  /**
+   * Absolute modifier
+   */
+  /**
+   * Fixed modifier
+   */
+  /**
+   * Collapse modifier
+   */ }
+  @media (max-width: 991px) {
+    .Navbar > ul {
+      display: none;
+      background: #ffffff;
+      font-size: 1.5rem; } }
+  .Navbar > ul > li > a,
+  .Navbar > ul > li > span {
+    color: #ffffff;
+    line-height: 6rem; }
+    .Navbar > ul > li > a > i > svg,
+    .Navbar > ul > li > span > i > svg {
+      fill: #ffffff; }
+  .Navbar > ul > li {
+    text-align: left; }
+    .Navbar > ul > li > span::after {
+      border-top-color: #ffffff; }
+  @media (max-width: 991px) {
+    .Navbar > ul > li > ul {
+      position: relative;
+      top: 0; } }
+  @media (max-width: 991px) {
+    .Navbar > ul > li > ul > li {
+      position: static;
+      top: 0; } }
+  @media (max-width: 991px) {
+    .Navbar > ul > li > ul > li > a {
+      background-color: rgba(0, 0, 0, 0.03); } }
+  .Navbar--Transparent, .Navbar--TransparentWithMobile {
+    background-color: transparent; }
+    .Navbar--Transparent > ul > li,
+    .Navbar--Transparent > ul > li > a,
+    .Navbar--Transparent > ul > li > span, .Navbar--TransparentWithMobile > ul > li,
+    .Navbar--TransparentWithMobile > ul > li > a,
+    .Navbar--TransparentWithMobile > ul > li > span {
+      color: #ffffff; }
+      .Navbar--Transparent > ul > li > i > svg,
+      .Navbar--Transparent > ul > li > a > i > svg,
+      .Navbar--Transparent > ul > li > span > i > svg, .Navbar--TransparentWithMobile > ul > li > i > svg,
+      .Navbar--TransparentWithMobile > ul > li > a > i > svg,
+      .Navbar--TransparentWithMobile > ul > li > span > i > svg {
+        fill: #ffffff; }
+    .Navbar--Transparent > ul > li > span::after, .Navbar--TransparentWithMobile > ul > li > span::after {
+      border-top-color: #ffffff; }
+    .Navbar--Transparent .circleIcon, .Navbar--TransparentWithMobile .circleIcon {
+      background: #ffffff; }
+      .Navbar--Transparent .circleIcon > svg, .Navbar--TransparentWithMobile .circleIcon > svg {
+        fill: #515d6b; }
+  @media (max-width: 991px) {
+    .Navbar--Transparent {
+      background-color: #ffffff; }
+      .Navbar--Transparent .circleIcon {
+        background: #515d6b; }
+        .Navbar--Transparent .circleIcon > svg {
+          fill: #ffffff; } }
+  @media (min-width: 992px) {
+    .Navbar--Transparent {
+      background-color: transparent; } }
+  .Navbar--White {
+    background-color: #ffffff; }
+    .Navbar--White > ul > li,
+    .Navbar--White > ul > li > a,
+    .Navbar--White > ul > li > span {
+      color: #4e555e; }
+      .Navbar--White > ul > li > i > svg,
+      .Navbar--White > ul > li > a > i > svg,
+      .Navbar--White > ul > li > span > i > svg {
+        fill: #4e555e; }
+    .Navbar--White > ul > li > span::after {
+      border-top-color: #4e555e; }
+    .Navbar--White .circleIcon {
+      background: #515d6b; }
+      .Navbar--White .circleIcon > svg {
+        fill: #ffffff; }
+  .Navbar--Absolute {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0; }
+    @media (max-width: 991px) {
+      .Navbar--Absolute .Navbar--Transparent {
+        position: relative; } }
+  .Navbar--Fixed {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0; }
+  @media (max-width: 991px) {
+    .Navbar--Collapse > ul {
+      position: absolute;
+      top: 6rem;
+      right: 0;
+      left: 0;
+      display: block; } }
+  @media (max-width: 991px) {
+    .Navbar > ul > li > a,
+    .Navbar > ul > li > span {
+      display: inline-flex;
+      padding: 0 1.5rem;
+      color: #4e555e;
+      line-height: 4rem; }
+      .Navbar > ul > li > a > i > svg,
+      .Navbar > ul > li > span > i > svg {
+        fill: #4e555e; }
+    .Navbar > ul > li {
+      padding: 0; }
+      .Navbar > ul > li > span::after {
+        border-top-color: #4e555e; } }
+</style><style type="text/css" id="s472-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.NavbarLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0;
+  line-height: 0; }
+  .NavbarLogo__Text {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 300; }
+    .NavbarLogo__Text::before {
+      position: absolute;
+      top: -1.7rem;
+      bottom: -1.7rem;
+      left: 0;
+      width: 0.1rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      content: ""; }
+    @media (max-width: 575px) {
+      .NavbarLogo__Text {
+        display: none; } }
+</style><style type="text/css" id="s465-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+/**
+ * ColorSet mixin
+ */
+/**
+ * Color list
+ */
+.Logo {
+  position: relative; }
+  @media (max-width: 991px) {
+    .Logo--BlackMobile svg {
+      fill: #ffffff; } }
+  @media (min-width: 992px) {
+    .Logo--Black svg {
+      fill: #ffffff; } }
+  @media (max-width: 991px) {
+    .Logo--BlueMobile svg {
+      fill: #ffffff; } }
+  @media (min-width: 992px) {
+    .Logo--Blue svg {
+      fill: #ffffff; } }
+  @media (max-width: 991px) {
+    .Logo--GrayBlueMobile svg [class*='st0'] {
+      fill: #8d9295; }
+    .Logo--GrayBlueMobile svg [class*='st1'] {
+      fill: #0099ff; } }
+  @media (min-width: 992px) {
+    .Logo--GrayBlue svg [class*='st0'] {
+      fill: #8d9295; }
+    .Logo--GrayBlue svg [class*='st1'] {
+      fill: #0099ff; } }
+  @media (max-width: 991px) {
+    .Logo--WhiteMobile svg {
+      fill: #ffffff; } }
+  @media (min-width: 992px) {
+    .Logo--White svg {
+      fill: #ffffff; } }
+  @media (max-width: 991px) {
+    .Logo--WhiteBlueMobile svg [class*='st0'] {
+      fill: #ffffff; }
+    .Logo--WhiteBlueMobile svg [class*='st1'] {
+      fill: #0099ff; } }
+  @media (min-width: 992px) {
+    .Logo--WhiteBlue svg [class*='st0'] {
+      fill: #ffffff; }
+    .Logo--WhiteBlue svg [class*='st1'] {
+      fill: #0099ff; } }
+</style><style type="text/css" id="s473-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.NavbarToggler {
+  position: relative;
+  z-index: 100002;
+  display: inline-flex;
+  height: 6rem;
+  align-items: center;
+  color: #292b2c;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /**
+   * Fixed modifier
+   */
+  /**
+   * Mobile modifier
+   */ }
+  .NavbarToggler__Text {
+    margin-right: 1rem;
+    color: #0099ff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.2s linear; }
+  .NavbarToggler__Icon {
+    align-items: center;
+    padding: 0.3rem 0;
+    border: 0.2rem solid #0099ff;
+    border-radius: 0.5rem;
+    transition: border 0.2s linear; }
+  .NavbarToggler__IconLine {
+    display: block;
+    width: 2.2rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #0099ff;
+    border-radius: 0.1rem;
+    transition: background 0.2s linear; }
+  .NavbarToggler--Dark {
+    color: #292b2c; }
+    .NavbarToggler--Dark .NavbarToggler__Text {
+      color: #292b2c; }
+    .NavbarToggler--Dark .NavbarToggler__Icon {
+      border-color: #292b2c; }
+    .NavbarToggler--Dark .NavbarToggler__IconLine {
+      background: #292b2c; }
+    .NavbarToggler--Dark.NavbarToggler--Opened {
+      color: #ffffff; }
+      .NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Text {
+        color: #ffffff; }
+      .NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Icon {
+        border-color: #ffffff; }
+        .NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__Icon svg {
+          fill: #ffffff; }
+      .NavbarToggler--Dark.NavbarToggler--Opened .NavbarToggler__IconLine {
+        background: #ffffff; }
+  .NavbarToggler--GreyDark {
+    color: #4e555e; }
+    .NavbarToggler--GreyDark .NavbarToggler__Text {
+      color: #4e555e; }
+    .NavbarToggler--GreyDark .NavbarToggler__Icon {
+      border-color: #4e555e; }
+    .NavbarToggler--GreyDark .NavbarToggler__IconLine {
+      background: #4e555e; }
+    .NavbarToggler--GreyDark.NavbarToggler--Opened {
+      color: #ffffff; }
+      .NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Text {
+        color: #ffffff; }
+      .NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Icon {
+        border-color: #0099ff; }
+        .NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__Icon svg {
+          fill: #0099ff; }
+      .NavbarToggler--GreyDark.NavbarToggler--Opened .NavbarToggler__IconLine {
+        background: #ffffff; }
+  .NavbarToggler--White {
+    color: #ffffff; }
+    .NavbarToggler--White .NavbarToggler__Text {
+      color: #ffffff; }
+    .NavbarToggler--White .NavbarToggler__Icon {
+      border-color: #ffffff; }
+    .NavbarToggler--White .NavbarToggler__IconLine {
+      background: #ffffff; }
+    .NavbarToggler--White.NavbarToggler--Opened {
+      color: #ffffff; }
+      .NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Text {
+        color: #ffffff; }
+      .NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Icon {
+        border-color: #ffffff; }
+        .NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__Icon svg {
+          fill: #ffffff; }
+      .NavbarToggler--White.NavbarToggler--Opened .NavbarToggler__IconLine {
+        background: #ffffff; }
+  .NavbarToggler--Blue {
+    color: #0099ff; }
+    .NavbarToggler--Blue .NavbarToggler__Text {
+      color: #0099ff; }
+    .NavbarToggler--Blue .NavbarToggler__Icon {
+      border-color: #0099ff; }
+    .NavbarToggler--Blue .NavbarToggler__IconLine {
+      background: #0099ff; }
+    .NavbarToggler--Blue.NavbarToggler--Opened {
+      color: #ffffff; }
+      .NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Text {
+        color: #ffffff; }
+      .NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Icon {
+        border-color: #ffffff; }
+        .NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__Icon svg {
+          fill: #ffffff; }
+      .NavbarToggler--Blue.NavbarToggler--Opened .NavbarToggler__IconLine {
+        background: #ffffff; }
+  @media (max-width: 991px) {
+    .NavbarToggler--BlueMobile {
+      color: #0099ff; }
+      .NavbarToggler--BlueMobile .NavbarToggler__Text {
+        color: #0099ff; }
+      .NavbarToggler--BlueMobile .NavbarToggler__Icon {
+        border-color: #0099ff; }
+      .NavbarToggler--BlueMobile .NavbarToggler__IconLine {
+        background: #0099ff; }
+      .NavbarToggler--BlueMobile.NavbarToggler--Opened {
+        color: #ffffff; }
+        .NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Text {
+          color: #ffffff; }
+        .NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Icon {
+          border-color: #ffffff; }
+          .NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__Icon svg {
+            fill: #ffffff; }
+        .NavbarToggler--BlueMobile.NavbarToggler--Opened .NavbarToggler__IconLine {
+          background: #ffffff; } }
+  .NavbarToggler--Brown {
+    color: #474d53; }
+    .NavbarToggler--Brown .NavbarToggler__Text {
+      color: #474d53; }
+    .NavbarToggler--Brown .NavbarToggler__Icon {
+      border-color: #474d53; }
+    .NavbarToggler--Brown .NavbarToggler__IconLine {
+      background: #474d53; }
+    .NavbarToggler--Brown.NavbarToggler--Opened {
+      color: #474d53; }
+      .NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Text {
+        color: #474d53; }
+      .NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Icon {
+        background: #0099ff;
+        border-color: #0099ff; }
+        .NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__Icon svg {
+          fill: #0099ff; }
+      .NavbarToggler--Brown.NavbarToggler--Opened .NavbarToggler__IconLine {
+        background: #ffffff; }
+  .NavbarToggler--Bordered {
+    width: 9rem;
+    height: 3.8rem;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: 0.2rem solid #d5d5d5;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    color: #515d6b; }
+    .NavbarToggler--Bordered .NavbarToggler__Text {
+      color: #515d6b;
+      text-transform: none; }
+    .NavbarToggler--Bordered .NavbarToggler__Icon {
+      border: none; }
+      .NavbarToggler--Bordered .NavbarToggler__Icon svg {
+        height: 1.6rem;
+        fill: #515d6b; }
+    .NavbarToggler--Bordered .NavbarToggler__IconLine {
+      width: 1.6rem;
+      height: 0.1rem; }
+  .NavbarToggler--Fixed {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    padding: 0 1.5rem; }
+    @media (max-width: 991px) {
+      .NavbarToggler--Fixed.NavbarToggler--Blue, .NavbarToggler--Fixed.NavbarToggler--BlueMobile {
+        background: rgba(255, 255, 255, 0.85); } }
+  @media (min-width: 992px) {
+    .NavbarToggler--Mobile {
+      display: none; } }
+  .NavbarToggler--Mobile.NavbarToggler--Collapse .NavbarToggler__Icon {
+    background: #0099ff;
+    border-color: #0099ff;
+    transition: none; }
+  .NavbarToggler--Mobile.NavbarToggler--Collapse .NavbarToggler__IconLine {
+    background: #ffffff;
+    transition: none; }
+</style><style type="text/css" id="s468-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.Nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  list-style-type: none;
+  /**
+   * Horizontal modifier
+   */
+  /**
+   * Vertical modifier
+   */
+  /**
+   * Bordered modifier
+   */
+  /**
+   * White
+   */
+  /**
+   * Uppercase modifier
+   */ }
+  .Nav--Horizontal {
+    flex-direction: row; }
+    .Nav--Horizontal > li > a,
+    .Nav--Horizontal > li > span {
+      padding: 0 1.5rem; }
+  .Nav--Vertical {
+    flex-direction: column;
+    align-items: center; }
+    .Nav--Vertical > li > a,
+    .Nav--Vertical > li > span {
+      padding: 1.5rem 0; }
+      .Nav--Vertical > li > a:hover,
+      .Nav--Vertical > li > span:hover {
+        background-color: rgba(0, 0, 0, 0.03); }
+    .Nav--Vertical > li > span {
+      justify-content: center; }
+    .Nav--Vertical > li {
+      width: 100%; }
+  .Nav--Bordered:not(.Nav--Vertical) > li {
+    border-left: 0.1rem solid;
+    border-color: rgba(0, 0, 0, 0.07); }
+    .Nav--Bordered:not(.Nav--Vertical) > li:first-of-type {
+      border-left: none; }
+    .Footer .Nav--Bordered:not(.Nav--Vertical) > li {
+      border-left-color: rgba(255, 255, 255, 0.45); }
+  .Nav--Bordered:not(.Nav--Vertical) > li > a {
+    padding: 0 1.5rem; }
+  .Nav--Bordered:not(.Nav--Horizontal) {
+    position: relative; }
+    .Nav--Bordered:not(.Nav--Horizontal) > li {
+      border-top: 0.1rem solid;
+      border-color: rgba(0, 0, 0, 0.07); }
+      .Nav--Bordered:not(.Nav--Horizontal) > li:first-of-type {
+        border-top: none; }
+  .Nav--White > li > a,
+  .Nav--White > li > span {
+    color: #ffffff; }
+    .Nav--White > li > a:hover,
+    .Nav--White > li > span:hover {
+      background-color: rgba(255, 255, 255, 0.45); }
+  .Nav--White.Nav--Bordered > li {
+    border-color: rgba(255, 255, 255, 0.45); }
+  .Nav--Uppercase > li > a,
+  .Nav--Uppercase > li > span {
+    text-transform: uppercase; }
+</style><style type="text/css" id="s469-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.NavDropdown {
+  /**
+   * Dropdown Wrapper
+   */
+  /**
+   * Dropdown Content
+   */
+  position: absolute;
+  z-index: 101;
+  top: 6rem;
+  right: 0;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  border-top: 0.1rem solid transparent;
+  list-style: none;
+  transition: 0.4s max-height linear, 0.4s border-top linear;
+  white-space: nowrap;
+  /**
+   * Horizontal modifier
+   */
+  /**
+   * Vertical modifier
+   */
+  /**
+   * Visible modifier
+   */
+  /**
+   * Transparent
+   */
+  /**
+   * Center
+   */ }
+  .NavDropdown__Wrapper {
+    transform: translateZ(0); }
+    .NavDropdown__WrapperLink {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-right: 1.5rem;
+      color: #4e555e;
+      cursor: pointer; }
+      .NavDropdown__WrapperLink::after {
+        display: inline;
+        width: 0;
+        height: 0;
+        margin-left: 0.8rem;
+        border-color: #4e555e transparent transparent transparent;
+        border-style: solid;
+        border-width: 0.4rem 0.4rem 0;
+        content: '';
+        vertical-align: middle; }
+      .NavDropdown__WrapperLink .circleIcon {
+        position: relative;
+        width: 2.6rem;
+        height: 2.6rem;
+        margin-right: 1rem;
+        border-radius: 50%; }
+        .NavDropdown__WrapperLink .circleIcon > svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin: 0;
+          transform: translate3d(-50%, -50%, 0); }
+      .NavDropdown__WrapperLink i {
+        font-size: 0;
+        line-height: 1; }
+      .NavDropdown__WrapperLink > svg,
+      .NavDropdown__WrapperLink i > svg {
+        margin-right: 0.5rem;
+        fill: #4e555e; }
+      .NavDropdown__WrapperLinkActive {
+        background-color: rgba(255, 255, 255, 0.1); }
+  .NavDropdown > li {
+    padding: 0;
+    background: #ffffff;
+    text-align: left; }
+    .NavDropdown > li:hover {
+      background: #f4f4f4; }
+  .NavDropdown > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1.4rem 1.5rem;
+    color: #4e555e;
+    line-height: 1.45;
+    text-decoration: none; }
+  .NavDropdown svg {
+    margin-right: 1rem;
+    fill: #4e555e; }
+  .NavDropdown--Horizontal {
+    min-width: 16rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; }
+  .NavDropdown--Vertical {
+    position: static;
+    top: 0; }
+  .NavDropdown--Visible {
+    max-height: 50rem;
+    transition: 0.4s max-height linear, 0.4s 0ms border-top linear; }
+    .NavDropdown--Visible.NavDropdown--Horizontal {
+      border-top: 0.1rem solid #e3e3e1;
+      border-bottom: 0.1rem solid #e3e3e1; }
+    .NavDropdown--Visible.NavDropdown---Vertical {
+      border-top: 0.1rem solid rgba(0, 0, 0, 0.07); }
+  .NavDropdown--Transparent > li {
+    background: transparent; }
+  .NavDropdown--Center > li > a {
+    justify-content: center; }
+</style><style type="text/css" id="s470-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.NavItem {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  .NavItem__Link {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #4e555e;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out; }
+    .NavItem__Link svg {
+      fill: #4e555e; }
+</style><style type="text/css" id="s612-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.DocumentOnline {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+  .DocumentOnline__Button {
+    text-align: center; }
+  .DocumentOnline__Footer {
+    display: flex;
+    max-width: 100rem;
+    padding-left: 3rem;
+    margin: 2rem auto 4rem;
+    color: #929292;
+    font-size: 1rem; }
+</style><style type="text/css" id="s461-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+@media (min-width: 992px) {
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; } }
+
+.Footer__Copyright {
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 2.4rem; }
+  @media (min-width: 992px) {
+    .Footer__Copyright {
+      margin-bottom: 0; } }
+  .Footer__Copyright span:first-of-type, .Footer__Copyright span:last-of-type {
+    display: block;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .Footer__Copyright span:first-of-type, .Footer__Copyright span:last-of-type {
+        display: inline;
+        text-align: left; } }
+  .Footer__Copyright a {
+    color: #ffffff; }
+
+.Footer__Socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  @media (min-width: 992px) {
+    .Footer__Socials {
+      justify-content: flex-start; } }
+
+.Footer__SocialLink + .Footer__SocialLink {
+  margin-left: 0.5rem; }
+
+.Footer .Footer__Nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 992px) {
+    .Footer .Footer__Nav {
+      margin-right: 0.5rem;
+      margin-bottom: 0; } }
+  .Footer .Footer__Nav > li {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-left-color: rgba(255, 255, 255, 0.45); }
+    @media (min-width: 992px) {
+      .Footer .Footer__Nav > li {
+        margin-top: 0;
+        margin-bottom: 0; } }
+    .Footer .Footer__Nav > li > a {
+      color: #ffffff; }
+
+.Footer__Column {
+  text-align: center; }
+  @media (min-width: 992px) {
+    .Footer__Column {
+      text-align: inherit; }
+      .Footer__Column:last-of-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: right; } }
+
+.Footer--Mini {
+  padding: 0 2rem;
+  font-size: 1.5rem; }
+  .Footer--Mini .Footer__Copyright {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: 0;
+    color: #828282; }
+    @media (min-width: 576px) {
+      .Footer--Mini .Footer__Copyright {
+        display: inline;
+        padding: 0 2rem; } }
+    .Footer--Mini .Footer__Copyright span:first-of-type, .Footer--Mini .Footer__Copyright span:last-of-type {
+      display: inline;
+      text-align: left; }
+  .Footer--Mini .Footer__Column {
+    display: block;
+    width: 100%;
+    text-align: center; }
+    @media (min-width: 576px) {
+      .Footer--Mini .Footer__Column {
+        display: flex;
+        align-items: center;
+        justify-content: center; } }
+  .Footer--Mini .Footer__Logo {
+    padding: 0.5rem 2rem;
+    font-size: 0; }
+    @media (min-width: 576px) {
+      .Footer--Mini .Footer__Logo {
+        padding: 0 2rem; } }
+    .Footer--Mini .Footer__Logo svg {
+      height: 3.5rem; }
+</style><style type="text/css" id="s481-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.Section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  background-color: #ffffff; }
+  @media (min-width: 576px) {
+    .Section {
+      padding: 4rem 2rem; } }
+  .Section--Gray {
+    background-color: #f4f4f4; }
+  .Section--GrayAlabaster {
+    background-color: #f9f9f9; }
+  .Section--White {
+    background-color: #ffffff; }
+  .Section--DarkGray {
+    background-color: #515d6b; }
+  .Section--Blue {
+    background-color: #0099ff;
+    color: #ffffff; }
+  .Section--Gradient {
+    background-image: repeating-linear-gradient(125deg, transparent 33%, rgba(255, 255, 255, 0.03) 66%); }
+  .Section--NoPadding {
+    padding: 0; }
+  .Section--Footer {
+    padding: 1.5rem; }
+    @media (min-width: 576px) {
+      .Section--Footer {
+        padding: 1.5rem; } }
+  @media (min-width: 576px) {
+    .Section--Small {
+      padding: 3rem 1.5rem; } }
+  @media (min-width: 576px) {
+    .Section--Medium {
+      padding: 6rem 2rem; } }
+  @media (min-width: 576px) {
+    .Section--Large {
+      padding: 8rem 2rem; } }
+  @media (min-width: 576px) {
+    .Section--Largest {
+      padding: 10rem 2rem; } }
+</style><style type="text/css" id="s499-0">/*
+ * Basic colors
+ */
+/*
+ * Globals
+ */
+/*
+ * Socials
+ */
+/*
+ * Categories
+ */
+/* stylelint-disable */
+/* stylelint-enable */
+/* stylelint-disable-line */
+.Social {
+  display: flex;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #0099ff;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: #0099ff;
+  line-height: 4rem;
+  text-align: center;
+  transition: background-color 0.2s ease-out; }
+  .Social svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #0099ff;
+    transition: fill 0.2s ease-out; }
+  .Social:hover {
+    background-color: #0099ff; }
+    .Social:hover svg {
+      fill: #ffffff; }
+  .Social--White {
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    transition: opacity 0.2s ease-out; }
+    .Social--White svg {
+      fill: #ffffff; }
+    .Social--White:hover {
+      background-color: transparent;
+      opacity: 0.5; }
+      .Social--White:hover svg {
+        fill: #ffffff; }
+  .Social--Small {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.2rem; }
+</style><div class="Layout undefined">
+   </div><div id="creatorContent" class=" online">      <div class="page fFamilyTxtArimo fStyleH1BoldItalic fStyleH1LastBoldItalic fStyleH3Bold fStyleH5Bold fStyleH6Italic fStylePersonalTitleBold fStyleDateBold pagePaddingTop40 pagePaddingRight40 pagePaddingBottom40 pagePaddingLeft40 secSpace10 colSpace20 fSizeH1-2 fSizeH2-2 fSizeH3-2 fSizeH4-2 fSizeH5-2 fSizeH6-2 fSizeText-2 fSizeDate-2 fSizeSkillDesc-2 fSizePersonalTitle-2 fSizePersonalText-2 fSizeHeader-2 fSizeFooter-2 lineHeight-2 footerDisplay fStyleH2Italic fFamilyH1RobotoCondensed" data-template="15" data-id="22243b76-52c9-4e4a-82bd-c046460a8837" data-user-id="1538275" data-colorset="388" data-language="ru_RU" data-type="cv" data-name="1: Java dev" data-url="itavgur" data-first-name="Юрий" data-last-name="Мельников" style="min-height: auto;"><div class="dRow firstRow" style="height: auto;"><div class="dCol dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol lastCol" style="width: 100%; height: 150px;"><div class="section sectionType1 sectionBasic fStyleH1Bold fStyleH1LastBold fSizeH1+3">
 		<div class="entry">
 			<div class="secType1Acc">
 				<div class="secType1AccInitials">юм</div>
@@ -47,7 +1471,8 @@
 				<div class="text desc"><p>Цель: получение позиции разработчика Java в Enterprise/Startup</p>
 
 <p></p></div>
-	</div></div></div><div class="dRow lastRow" style="height: 100%;"><div class="dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol" style="width: 31%; height: auto;"><div class="section sectionType2 sectionPersonal">
+			</div></div>
+	</div></div></div><div class="dRow lastRow" style="height: auto;"><div class="dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol" style="width: 31%; height: 1702px;"><div class="section sectionType2 sectionPersonal">
 		<h3 class="title"><span class="ico"></span><span class="txt">Профиль</span></h3>
 		<div class="entryContainer content"><div class="entry personalAddress" data-order="0">
 	<div class="pointer"></div>
@@ -65,12 +1490,12 @@
 	<div class="pointer"></div>
 	<div class="ico"></div>
 	<h4 class="personalTitle">Skype</h4>
-	<div class="personalText"><a href="http://itavgur/" target="_blank" rel="nofollow">itavgur</a></div>
+	<div class="personalText"><a href="http://itavgur/" target="_blank" rel="nofollow noopener">itavgur</a></div>
 </div><div class="entry personalEmail entryExample" data-order="3">
 	<div class="pointer"></div>
 	<div class="ico"></div>
 	<h4 class="personalTitle">Электронная почта</h4>
-	<div class="personalText"><a href="mailto:itavgur@gmail.com" rel="nofollow">itavgur@gmail.com</a></div>
+	<div class="personalText"><a href="mailto:itavgur@gmail.com" rel="nofollow noopener" target="_blank">itavgur@gmail.com</a></div>
 </div><div class="entry dateBirth personalBirthday" data-birth-day="" data-birth-month="" data-birth-year="" data-order="4">
 	<div class="pointer"></div>
 	<div class="ico"></div>
@@ -80,7 +1505,7 @@
 	<div class="pointer"></div>
 	<div class="ico"></div>
 	<h4 class="personalTitle">LinkedIn</h4>
-	<div class="personalText"><a href="https://www.linkedin.com/in/itavgur" target="_blank" rel="nofollow">https://www.linkedin.com/in/itavgur</a></div>
+	<div class="personalText"><a href="https://www.linkedin.com/in/itavgur" target="_blank" rel="nofollow noopener">https://www.linkedin.com/in/itavgur</a></div>
 </div></div>
 	</div><div class="section sectionType7 sectionSkills ratingCircleBorder ratingOffTransparent">
 		<h3 class="title"><span class="ico"></span><span class="txt">Hавыки</span></h3>
@@ -93,14 +1518,14 @@
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><p>Spring: Framework, Data JPA, MVC, Security, SpEL</p>
+				<h4 class="descShort"><p>Spring: Framework, Data JPA, MVC, Security</p>
 
 <p></p></h4>
 				
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><p>Hibernate (hql, jCache, Validation)</p>
+				<h4 class="descShort"><p>Hibernate (hql, jCache, Validation), JDBI</p>
 
 <p></p></h4>
 				
@@ -128,15 +1553,14 @@
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><p>jUnit 4, hamcrest, assertj</p>
+				<h4 class="descShort"><p>jUnit 4, hamcrest, assertj, jMockit</p>
 
 <p></p></h4>
 				
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><span class="normalText"><p><u><b>Архитектура:</b></u> REST, JSON.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Design Patterns, SOLID, DRY, KISS, YAGNI.
-OOP, AOP, TDD/BDD</p>
+				<h4 class="descShort"><span class="normalText"><p><u><b>Архитектура:</b></u> REST, JSON.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Design Patterns, SOLID. OOP, AOP, TDD</p>
 
 <p></p></span></h4>
 				
@@ -151,14 +1575,14 @@ Mysql, MSSQL (administration)</p>
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><span class="normalText"><p><b><u>Инструменты:</u></b> IntelliJ IDEA, Maven, Git, Heroku, Travis, Codacy, Redmine, TrackStudio, UML</p>
+				<h4 class="descShort"><span class="normalText"><p><b><u>Инструменты:</u></b> IntelliJ IDEA, Maven, Git, Heroku, Travis, Codacy, UML</p>
 
 <p></p></span></h4>
 				
 				
 			</div><div class="entry skillDescOnly">
 				<div class="pointer"></div>
-				<h4 class="descShort"><span class="normalText"><p><b><u>Методологии/фреймворки:</u></b> ITIL, ITSM, PMBOK, Scrum, DevOps<br></p>
+				<h4 class="descShort"><span class="normalText"><p><b><u>Методологии/фреймворки:</u></b> Scrum, DevOps, PMBOK, ITIL, ITSM&nbsp;<br></p>
 
 <p></p></span></h4>
 				
@@ -171,20 +1595,39 @@ Mysql, MSSQL (administration)</p>
 				
 				
 			</div></div>
-	</div></div><div class="dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutColAll dateLinesDouble dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 lastCol" style="width: 69%; height: auto;"><div class="section sectionType6 sectionExperience">
+	</div></div><div class="dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutColAll dateLinesDouble dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 lastCol" style="width: 69%; height: 1702px;"><div class="section sectionType6 sectionExperience">
 		<h3 class="title"><span class="ico"></span><span class="txt">Профессиональный опыт</span></h3>
 		<div class="entryContainer"><div class="entry" data-date-from-year="" data-date-from-month="" data-date-to-year="" data-date-to-month="">
 				<div class="pointer"></div>
-				<div class="dates" style="margin-top: 2px;">					<span class="dateFrom">11/2017</span>
+				<div class="dates" style="margin-top: 2px;">					<span class="dateFrom">08/2018</span>
 					<span class="dateSeparator"></span>
-					<span class="dateTo">02/2018</span>
+					<span class="dateTo">До сегодня</span>
+				</div>
+				<div class="content">
+					<h5 class="title"><p>Разработчик Java</p>
+
+<p></p></h5>
+					<h6 class="subtitle"><p>СибТрансПетройл</p></h6>
+					<div class="text desc"><p>Командная разработка веб-приложений.</p>
+
+<p>Стек: Spring, Eclipse Link, jUnit, jMokit.</p>
+
+<p>Scrum,</p>
+
+<p></p></div>
+				</div>
+			</div><div class="entry" data-date-from-year="" data-date-from-month="" data-date-to-year="" data-date-to-month="">
+				<div class="pointer"></div>
+				<div class="dates" style="margin-top: 2px;">					<span class="dateFrom">03/2018</span>
+					<span class="dateSeparator"></span>
+					<span class="dateTo">07/2018</span>
 				</div>
 				<div class="content">
 					<h5 class="title"><p>Разработчик Java</p></h5>
 					<h6 class="subtitle"><p>Java Online Projects (javaops.ru)</p>
 
 <p></p></h6>
-					<div class="text desc"><p>Участие в командной разработке веб-приложения на Java.</p>
+					<div class="text desc"><p>Командная разработка веб-приложения на Java.</p>
 
 <p></p>
 
@@ -357,30 +1800,5 @@ Mysql, MSSQL (administration)</p>
 				</div>
 			</div></div>
 	</div></div></div></div>
-    
-					</div>
-
-		
-		
-					
-			
-		
-							
-					<script type="text/javascript">
-              window.addEventListener("load", function() {
-                var cols = document.querySelectorAll('.dCol');
-                var content = document.getElementById('creatorContent');
-
-                if (cols && cols.length > 0) {
-
-                  for (var i = 0; cols.length > i; i++) {
-                    // reset height
-                    cols[i].style.height = 'auto';
-                  }
-
-                }
-			  });
-			</script>
-			<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e3b206154e","applicationID":"92799082,92343237,46924997","transactionName":"YgNUZ0sAWkNXBxBQX1tJdUZKFVtdGSUUSWx9EkJDZSJbXkIWC1VcUBRqfFcNXV5TIAtaRVgDWEdKIlteQhYLVVxQFHZcVw1dXlMnMg==","queueTime":0,"applicationTime":1322,"atts":"TkRDEQMaFnNZEQpNQkwvRVx4UxYKFDYxGxwXFFlGTQQaVF8ARgMSXBJXRV4URhIaRgdVWVAIQnpJJ1tCQQUWXVVHIFlBG1taRVoISBtTWQ9TXU0oRBIMRlUABBtXDgUXUAcIGFdUGxwXE0VWSyhwEgxGVQwDDVQBBhtNFkVFARZ8XVQPWhEDQ11EVxIDTEJ1AVtSUA0aU1kJRhUSRRRZV0wCQBIMRgpWHUUKV10bTRZRVQcLTF5BRAwRVw4ZWVIBBRRHXQdCHk0OGUBDEElRVUcDFB8bFEdVREZeG1lBB0BUTBN0V1sFDVUeVglbEURNFlEUXh9ETQ==","errorBeacon":"bam.nr-data.net","agent":""}</script>
-
-</div></div></body></html>
+    </div>
+	<script>window.__INITIAL_DATA__ = {"pdfLink":null,"html":"      \u003Cdiv class=\"page fFamilyTxtArimo fStyleH1BoldItalic fStyleH1LastBoldItalic fStyleH3Bold fStyleH5Bold fStyleH6Italic fStylePersonalTitleBold fStyleDateBold pagePaddingTop40 pagePaddingRight40 pagePaddingBottom40 pagePaddingLeft40 secSpace10 colSpace20 fSizeH1-2 fSizeH2-2 fSizeH3-2 fSizeH4-2 fSizeH5-2 fSizeH6-2 fSizeText-2 fSizeDate-2 fSizeSkillDesc-2 fSizePersonalTitle-2 fSizePersonalText-2 fSizeHeader-2 fSizeFooter-2 lineHeight-2 footerDisplay fStyleH2Italic fFamilyH1RobotoCondensed\" data-template=\"15\" data-id=\"22243b76-52c9-4e4a-82bd-c046460a8837\" data-user-id=\"1538275\" data-colorset=\"388\" data-language=\"ru_RU\" data-type=\"cv\" data-name=\"1: Java dev\" data-url=\"itavgur\" data-first-name=\"Юрий\" data-last-name=\"Мельников\"\u003E\u003Cdiv class=\"dRow firstRow\"\u003E\u003Cdiv class=\"dCol dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol lastCol\" style=\"width: 100%; height: 150px;\"\u003E\u003Cdiv class=\"section sectionType1 sectionBasic fStyleH1Bold fStyleH1LastBold fSizeH1+3\"\u003E\n\t\t\u003Cdiv class=\"entry\"\u003E\n\t\t\t\u003Cdiv class=\"secType1Acc\"\u003E\n\t\t\t\t\u003Cdiv class=\"secType1AccInitials\"\u003Eюм\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003Cdiv class=\"secType1Container\"\u003E\n\t\t\t\t\u003Ch1\u003E\n\t\t\t\t\t\u003Cspan class=\"firstname\"\u003EЮрий\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"lastname\"\u003EМельников\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fh1\u003E\n\t\t\t\t\u003Ch2\u003EРазработчик Java\u003C\u002Fh2\u003E\n\t\t\t\u003C\u002Fdiv\u003E\n\t\t\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"section sectionType4 sectionSummary secTitleOff\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EПрофессиональные цели\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer content\"\u003E\u003Cdiv class=\"entry\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EЦель: получение позиции разработчика Java в Enterprise\u002FStartup\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"dRow lastRow\"\u003E\u003Cdiv class=\"dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutLine dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 firstCol\" style=\"width: 31%; height: 1257px;\"\u003E\u003Cdiv class=\"section sectionType2 sectionPersonal\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EПрофиль\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer content\"\u003E\u003Cdiv class=\"entry personalAddress\" data-order=\"0\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003EАдрес\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E\u003Cp\u003Eг.Иркутск (возможна релокация)\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry personalPhone\" data-order=\"1\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003EТелефон\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E+79148959482\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry personalCustom icoSkype\" data-order=\"2\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003ESkype\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E\u003Ca href=\"http:\u002F\u002Fitavgur\" target=\"_blank\" rel=\"nofollow noopener\"\u003Eitavgur\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry personalEmail entryExample\" data-order=\"3\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003EЭлектронная почта\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E\u003Ca href=\"mailto:itavgur@gmail.com\" rel=\"nofollow noopener\" target=\"_blank\"\u003Eitavgur@gmail.com\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry dateBirth personalBirthday\" data-birth-day=\"\" data-birth-month=\"\" data-birth-year=\"\" data-order=\"4\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003EДата рождения\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E12\u002F15\u002F1979\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry personalLinkedin entryExample\" data-order=\"5\"\u003E\n\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Cdiv class=\"ico\"\u003E\u003C\u002Fdiv\u003E\n\t\u003Ch4 class=\"personalTitle\"\u003ELinkedIn\u003C\u002Fh4\u003E\n\t\u003Cdiv class=\"personalText\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fitavgur\" target=\"_blank\" rel=\"nofollow noopener\"\u003Ehttps:\u002F\u002Fwww.linkedin.com\u002Fin\u002Fitavgur\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"section sectionType7 sectionSkills ratingCircleBorder ratingOffTransparent\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EHавыки\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer content\"\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EJava Core v8\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003ESpring: Framework, Data JPA, MVC, Security\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EHibernate (hql, jCache, Validation), JDBI\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003ETomcat, jdbc\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EJSP\u002FJSTL, AJAX\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003Eslf4j, logback\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EjUnit 4, hamcrest, assertj, jMockit\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cspan class=\"normalText\"\u003E\u003Cp\u003E\u003Cu\u003E\u003Cb\u003EАрхитектура:\u003C\u002Fb\u003E\u003C\u002Fu\u003E REST, JSON.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Design Patterns, SOLID. OOP, AOP, TDD\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fspan\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cspan class=\"normalText\"\u003E\u003Cp\u003E\u003Cb\u003E\u003Cu\u003EDB:\u003C\u002Fu\u003E\u003C\u002Fb\u003E Postgres, HSQLDB (dev).\nMysql, MSSQL (administration)\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fspan\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cspan class=\"normalText\"\u003E\u003Cp\u003E\u003Cb\u003E\u003Cu\u003EИнструменты:\u003C\u002Fu\u003E\u003C\u002Fb\u003E IntelliJ IDEA, Maven, Git, Heroku, Travis, Codacy, UML\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fspan\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cspan class=\"normalText\"\u003E\u003Cp\u003E\u003Cb\u003E\u003Cu\u003EМетодологии\u002Fфреймворки:\u003C\u002Fu\u003E\u003C\u002Fb\u003E Scrum, DevOps, PMBOK, ITIL, ITSM&nbsp;\u003Cbr\u003E\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fspan\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry skillDescOnly\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cspan class=\"normalText\"\u003E\u003Cp\u003E\u003Cb\u003E\u003Cu\u003EДругое:\u003C\u002Fu\u003E\u003C\u002Fb\u003E HTML5\u002FCSS\u002FJS (jQuery, Datatables, Bootstrap 3...), Unix (FreeBSD, Linux)\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fspan\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\n\t\t\t\t\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cdiv class=\"dCol secTitPaddingBottom4 secTitMarginBottom10 secTitBorderBottomWidth1 secTitBorderBottomStyleSolid secAccIcoCircle dateLayoutColAll dateLinesDouble dateSeparatorDash dateStickSeparatorFrom dateTextStyleBold colorTxtMediumBlack3 colorNameDarkSilver2 colorLastNameDarkSilver2 colorPositionDarkSilver2 colorImgBrdDarkSilver2 colorImgBgDarkSilver2 colorSecTitDarkSilver2 colorSecTitBgWhite3 colorSecTitBrdLightSilver3 colorSecLineLightSilver3 colorSecPointDarkSilver2 colorSecPointShadowDarkSilver1 colorEntTitMediumBlack3 colorEntSubMediumBlack3 colorEntBoldMediumBlack3 colorEntIcoWhite3 colorEntIcoBgDarkSilver3 colorIcoWhite3 colorIcoBgDarkSilver3 colorRatOnDarkSilver3 colorRatOffLightSilver3 colorRatAddDarkSilver3 colorBgWhite3 colorBgHfWhite3 colorDateMediumBlack3 colorDateBgDarkSilver2 lastCol\" style=\"width: 69%; height: 1257px;\"\u003E\u003Cdiv class=\"section sectionType6 sectionExperience\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EПрофессиональный опыт\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer\"\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E08\u002F2018\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003EДо сегодня\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EРазработчик Java\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EСибТрансПетройл\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EКомандная разработка веб-приложений.\u003C\u002Fp\u003E\n\n\u003Cp\u003EСтек: Spring, Eclipse Link, jUnit, jMokit.\u003C\u002Fp\u003E\n\n\u003Cp\u003EScrum,\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E03\u002F2018\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E07\u002F2018\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EРазработчик Java\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EJava Online Projects (javaops.ru)\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EКомандная разработка веб-приложения на Java.\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\n\n\u003Cp\u003EСтек: Java 8, Spring, REST, jQuery, datatables, Bootstrap,postgres\u002Fhsqldb&nbsp;\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E12\u002F2015\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E02\u002F2018\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EРуководитель отдела ИТ\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003ESan-Dali, г.Иркутск\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cul\u003E\u003Cli\u003EАнтикризисное управление: оптимизированы инфраструктура предприятия и процессы управления ИТ&nbsp;\u003Cbr\u003E\u003C\u002Fli\u003E\u003Cli\u003EРазработано веб-приложения (Рабочее место директора магазина)\u003Cbr\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\n\n\u003Cdiv\u003E\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E06\u002F2014\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E08\u002F2015\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EРуководитель отдела ИТ\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EОснова движения, г.Иркутск\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cul\u003E\u003Cli\u003EАнтикризисное управление: оптимизированы инфраструктура предприятия и процессы управления ИТ&nbsp;\u003Cbr\u003E\u003C\u002Fli\u003E\u003Cli\u003EМетодологии ITILv2, ITSM.&nbsp;\u003Cbr\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E11\u002F2007\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E12\u002F2007\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EИнфраструктурный проект\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EБайкалВестКом, г.Иркутск\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EПроведен аудит схемы Active Directory корпоративной сети, замечания приняты заказчиком в работу&nbsp;&nbsp;\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E12\u002F2012\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E05\u002F2013\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EИнфраструктурный проект\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EМин. здравоохранения респ.Саха, г.Якутск\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EПостроена инфраструктура защищенной сети объектов здравоохранения республики на базе Cisco.&nbsp;\u003Cspan\u003EОколо 30 точек подключения.\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E12\u002F2010\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E12\u002F2014\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EПреподаватель курсов\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EУЦ: Академия ИТ, Топэксперт\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EПроведены тренинги (примерно 40 групп) Cisco (трек R&amp;S и Sec) для предприятий&nbsp; среднего\u002Fкрупного бизнеса (Сбербанк, ТТК, МЧС и т.д.)\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E07\u002F2004\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E01\u002F2011\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EСистемный администратор\u002FРуководитель отдела ИТ\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Ch6 class=\"subtitle\"\u003E\u003Cp\u003EМир Снабжения Стройматериалы, г.Иркутск\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh6\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cul\u003E\u003Cli\u003EСоздана ИТ инфраструктура предприятия, внедрены и настроены процессы управления ИТ (ITIL v2, ITSM)&nbsp;\u003Cbr\u003E\u003C\u002Fli\u003E\u003Cli\u003EРазработаны конфигурации CRM.ERP на базе платформы 1С 7.7, успешно завершен проект перехода на 1С 8.1\u003Cbr\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"section sectionType5 sectionEducation\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EОбразование\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer\"\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates\" style=\"margin-top: 2px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateFrom\"\u003E1996\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\"\u003E2001\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch5 class=\"title\"\u003E\u003Cp\u003EИркутская государственная экономическая академия\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh5\u003E\n\t\t\t\t\t\u003Cdiv class=\"text desc\"\u003E\u003Cp\u003EФакультет организации рынка, специальность: м\u003Cspan\u003Eенеджмент\u003C\u002Fspan\u003E\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"section sectionType8 sectionCertificates\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EСертификаты\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer\"\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates dateHideSeparator\" style=\"margin-top: -1px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateSingle\"\u003E2011\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003ECisco Certified Network Professional: Security\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates dateHideSeparator\" style=\"margin-top: -1px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateSingle\"\u003E2007\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EMicrosoft Certified System Engineer 2003\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"section sectionType9 sectionCourses\"\u003E\n\t\t\u003Ch3 class=\"title\"\u003E\u003Cspan class=\"ico\"\u003E\u003C\u002Fspan\u003E\u003Cspan class=\"txt\"\u003EКурсы\u003C\u002Fspan\u003E\u003C\u002Fh3\u003E\n\t\t\u003Cdiv class=\"entryContainer\"\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates dateHideSeparator\" style=\"margin-top: -1px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateSingle\"\u003E2009\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateFrom\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EИТ-Директор. Федеральный УЦ  “Русская Школа Управления», г.Москва\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003Cdiv class=\"entry\" data-date-from-year=\"\" data-date-from-month=\"\" data-date-to-year=\"\" data-date-to-month=\"\"\u003E\n\t\t\t\t\u003Cdiv class=\"pointer\"\u003E\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"dates dateHideSeparator\" style=\"margin-top: -1px;\"\u003E\t\t\t\t\t\u003Cspan class=\"dateSingle\"\u003E2008\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateFrom\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateSeparator\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\t\u003Cspan class=\"dateTo\" style=\"display: none;\"\u003E\u003C\u002Fspan\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\t\u003Cdiv class=\"content\"\u003E\n\t\t\t\t\t\u003Ch4 class=\"descShort\"\u003E\u003Cp\u003EБезопасность компьютерных систем и сетей,&nbsp;УЦ «Информзащита», г.Москва\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\n\t\t\t\t\u003C\u002Fdiv\u003E\n\t\t\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n\t\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\n    ","document":{"colorSet":{"template":{"name":"Crisp"}}}};</script><script src="./index_files/vendors.js.Без названия" defer=""></script></body></html>
